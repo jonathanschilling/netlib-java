@@ -29,5 +29,8 @@ Here are the version available:
 | bullseye     | (11)           | testing          | 9.3.0      | 5.0.0            |
 | bookworm     | (12)           | unstable         | x.x.x      | x.x.x            |
 
+For Debian Jessie, some tricks are required to get `jessie-backports` for Java 8:
+https://unix.stackexchange.com/questions/508724/failed-to-fetch-jessie-backports-repository
+
 ## Supported architectures
 
