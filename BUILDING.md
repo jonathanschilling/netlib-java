@@ -13,7 +13,7 @@ The native parts of the code are built depending on the target architecture:
 - all macOS-related stuff is built and tested on the macOS CI runners provided by GitHub
 - all other binaries are build, i.e. (cross-)compiled on Linux for the various architectures
 - testing of the binaries compatible with `amd64` is done directly on the CI runners
-- testing of all other binaries is done using Docker's multiarch support via `binfmt-misc`;
+- testing of all other binaries is done using Docker's multiarch support via `binfmt_misc`;
   see e.g. https://www.docker.com/blog/multi-platform-docker-builds/ for details.
 
 ## Supported targets
