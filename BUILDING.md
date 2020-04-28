@@ -1,11 +1,11 @@
 # How to build netlib-java using Docker
 
-`netlib-java` consists of various bits and pieces.
-The `native-system` netlib libraries and their dependencies should be available on the target system.
-The `native-ref` netlib libraries are shipped in the `jar`s along with the Java classes
-and have to be compiled for all supported target architectures and commonly found versions of `libgfortran`.
-The `f2j-ref` netlib implementation is a pure Java version obtained from the original Fortran sources by
-use of `f2j`.
+`netlib-java` consists of various bits and pieces:
+- The `native-system` netlib libraries and their dependencies should be available on the target system.
+- The `native-ref` netlib libraries are shipped in the `jar`s along with the Java classes
+  and have to be compiled for all supported target architectures and commonly found versions of `libgfortran`.
+- The `f2j-ref` netlib implementation is a pure Java version obtained from the original Fortran sources by
+  use of `f2j`.
 
 All Java parts are compiled using `openjdk-8-jdk` and assembled using Apache `maven`.
 
